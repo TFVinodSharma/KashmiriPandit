@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
 //        Create an arraylist
         val dataList = ArrayList<Model>()
-        dataList.add(Model("Phone", 1))
-        dataList.add(Model("Watch", 2))
-        dataList.add(Model("Note", 3))
-        dataList.add(Model("Pin", 4))
+        dataList.add(Model("Makela", 1))
+        dataList.add(Model("Lagan", 2))
+        dataList.add(Model("Khanether", 3))
+        dataList.add(Model("Grahprewesh", 4))
 //        pass the values to RvAdapter
         val rvAdapter = RvAdapter(dataList)
 //        set the recyclerView to the adapter
